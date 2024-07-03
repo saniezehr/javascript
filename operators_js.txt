@@ -1,0 +1,70 @@
+// arthmetic operators
+let a = 10;
+let b = 6;
+document.write ("a+b = ",a+b ,"<br>")// addtion
+document.write ("a-b = ",a-b,"<br>")//subtraction
+document.write ("a*b = ",a*b,"<br>")//multiplication
+document.write ("a/b = ",a/b,"<br>")//division
+document.write ("a**b = ",a**b,"<br>")//exponentiation 10*6
+document.write ("a%b = ",a%b,"<br>")//modulus
+document.write ("a++ = ",a++,"<br>")//increment(first print then add) result = 10
+document.write ("a=",a,"<br>")//result is 11
+document.write ("++a = ",++a,"<br>")//incrment(first addthen print) result =12
+document.write ("a-- = ",a--,"<br>")//decrement(first print then sub) result =12
+document.write ("a=",a,"<br>")//result is 11
+document.write ("--a = ",--a,"<br>")//decrement(first sub then print)result =10
+
+
+//assignment operators
+ x = 5
+ y=2
+ x+=y//this is = x ans is 7
+ document.write( "x=",x,"<br>")// result x = 7
+ y+=x// this is = y ans is 9
+ document.write( "x=",x,"<br>") //result x= 7
+ y+=y//this is = y ans is 18
+ document.write( "x=",x,"<br>") // result x = 7
+ x+=x // this is = x ans is 14
+ document.write( "y=",y,"<br>") // result y = 18
+ y-=x //this is = y  ans is 4
+ document.write( "y=",y,"<br>") // result y = 4
+ y*=x // this is = y ans is 56
+ document.write( "x=",x,"<br>") // result x = 14
+y/=x //this is = y ans is 4
+document.write("x=",x,"<br>") // result x = 14
+ x%=y // this = x ans is 2
+ document.write("x=",x,"<br>") // result x = 2 
+ y**=y// this = x ans is 16
+ document.write("x=",y,"<br>") // result x = 16
+
+ // comparision operators
+ let o=5
+ let p="6"
+ //equals to
+document.write( o==p ,"<br>")
+ //notequals to
+document.write( o!=p,"<br>")
+ //equals to value and type
+document.write( o===p,"<br>")
+ //not equals to value and type
+document.write( o!==p,"<br>")
+//greater than
+document.write( o>p,"<br>")
+//lesser than
+document.write( o<p,"<br>")
+//greater than or equals to
+document.write( o>=p,"<br>")
+//lesser than or equals to
+document.write( o<=p,"<br>")
+
+//logical operators 
+
+let s= 6
+let r=6
+document.write( s!==r&&s==r,"<br>")
+//&& is logical equals to
+document.write( s===r&&s==r,"<br>")
+document.write( s!==r||s==r,"<br>")
+//|| is logical or
+document.write( !s==r,"<br>")
+//!is logical not equals to
