@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var color=prompt("enter color");
+        if(color=="r")
+            {
+                document.body.style.backgroundColor="red";
+            }
+        else if(color=="g")
+            {
+                document.body.style.backgroundColor="green";
+            }
+        else if(color=="y")
+            {
+                document.body.style.backgroundColor="yellow";
+            }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*var input1=Number(prompt("enter first number"));
+if(input1%2==0)
+{
+    document.write("Even num")
+}
+else
+{
+    document.write("Odd num")
+}*/
+
+/*var user_input= Number(prompt("enter your name"));
+
+if(user_input>0){
+    document.write("this is positive int")
+}
+else if(user_input==0){
+    document.write("this is neutralint")
+    
+}
+else{
+
+    document.write("this is negative number")
+
+}*/
+
+
+
+
+    </script>
+</body>
+</html>
