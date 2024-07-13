@@ -1,0 +1,11 @@
+// let num= 9;
+// let num1=14;
+// document.write(num&num1);
+let table=prompt();
+for(let a=1;a<=20;a++){
+    document.write( table+"*"+a+"="+a*table+"<br>")
+}let num=1;
+while(num<=20){
+    document.write(num + "<br>");
+    num++;
+}
