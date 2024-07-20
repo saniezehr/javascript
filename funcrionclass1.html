@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function msg(){
+            alert("this is message");
+        }
+        function get(number){
+alert(number*number*number)
+        }
+        function getinfo(){
+            return "hello";
+        }
+        document.write(getinfo());
+
+    var pow=new Function("num1","num2","return Math.pow(num1,num2)");
+     document.writeln(pow(2,3));
+
+     var add=new Function("num1","num2","return (num1+num2)");
+     document.writeln(add(2,3));
+
+
+    </script>
+    <input type="button" onclick="msg()" value="call function">
+    <input type="button" value="click" onclick="get(4)">
+</body>
+</html>
