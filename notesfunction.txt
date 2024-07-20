@@ -1,0 +1,21 @@
+JAVASCIRPT FUNCTION 
+STNTAX ;-
+FUNCTION FUMCTION_NAME(){
+alert('hello this is message');
+} <input type ="button" onclick ="msg()" value='call function">
+parameter function:-
+function get(number){
+alert(number*number*number)
+        }
+    <input type="button" value="click" onclick="get(4)">
+parameter function wo hotay hai jismai valyue likhnai hoti hai and ussai phir function call karata hai.
+object function:-
+*for maths multiply*
+ var pow=new Function("num1","num2","return Math.pow(num1,num2)");
+     document.writeln(pow(2,3));
+*for maths add*
+     var add=new Function("num1","num2","return (num1+num2)");
+     document.writeln(add(2,3));
+
+
+
